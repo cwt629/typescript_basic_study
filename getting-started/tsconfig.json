@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        // @ts-check 과 같은 역할
+        "checkJs": true,
+        // 모든 타입에 대해 any라는 기본 타입이라도 넣어달라(a: any 처럼)
+        "noImplicitAny": true
+    }
+}
+/* 
+옵션들은 https://www.typescriptlang.org/ - tools - tsconfig reference
+를 참고하자.
+*/
+/* 
+작성한 ts 파일이 어떻게 js로 변환되는지 확인하고 싶다
+: 위 사이트(타입스크립트 공식 페이지)의 playground
+에 가서 하면 된다.
+
+마치 Babel 사이트에서,
+js 코드를 최대한 많은 브라우저에서 호환 가능한 코드로
+변환해주는 것과 같다.
+*/
