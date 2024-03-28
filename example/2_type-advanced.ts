@@ -22,7 +22,7 @@ let str = '이건 문자열 타입이 됩니다.';
 let num: number;
 num = 'str' as any;
 
-const divElement = document.querySelector('#app');
-divElement.innerHTML;
+// const divElement = document.querySelector('#app');
+// divElement.innerHTML;
 // const empty = document.querySelector('#app') as null;
 // empty.innerHTML;

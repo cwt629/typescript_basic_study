@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        // 프로젝트 내부 js 허용
         "allowJs": true,
         // @ts-check 과 같은 역할
         "checkJs": true,

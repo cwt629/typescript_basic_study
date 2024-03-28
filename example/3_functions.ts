@@ -4,9 +4,9 @@ function sum(a, b) {
 }
 
 // 타입스크립트 함수 선언 - 함수의 매개 변수
-function add(a: number, b: number) {
-  return a + b;
-}
+// function add(a: number, b: number) {
+//   return a + b;
+// }
 
 // 타입스크립트 함수 선언 - 함수의 반환 타입
 function add(a: number, b: number): number {
@@ -21,7 +21,7 @@ function add(a: number, b: number): number {
 function log(a: string) {
   console.log(a);
 }
-log('a', 10);
+// log('a', 10); // 오류!
 
 // 함수 옵셔널 파라미터(optional parameter)
 function printText(text: string, type?: string) {
